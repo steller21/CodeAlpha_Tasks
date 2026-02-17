@@ -1,0 +1,123 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/5651995.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header1 {
+    text-align: center;
+    background-color: rgb(201, 231, 6);
+    padding: 1%;
+    font-size: 50px;
+    margin-top: -2px;
+    animation: headeranimation 2s ease-in-out forwards;
+}
+
+@keyframes headeranimation {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#section1 {
+    background-color: rgb(198, 201, 181);
+    font-size: 20px;
+    padding: 2px;
+    
+}
+
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right{
+    padding: 0 15%;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+.left{
+background-color: rgb(124, 175, 175);
+animation: leftanimation 2s ease-in-out forwards;
+}
+
+@keyframes leftanimation {
+    from {
+        transform: translateX(-100vh);
+    }
+    to {
+       transform: translateX(0);
+    }
+   }
+
+.right{
+background-color: rgb(129, 206, 206);
+animation: rightanimation 2s ease-in-out forwards;
+}
+
+@keyframes rightanimation {
+    from {
+        transform: translateX(100vh);
+    }
+    to {
+       transform: translateX(0);
+    }
+   }
+
+.left:hover, .right:hover{
+    background-color: rgb(13, 90, 90);
+}
+
+
+#resume_left, #resume_right{
+    width: 50%;
+    padding: 0 70px;
+}
+
+#resume_container {
+    background-color: indianred;
+    width: 50%;
+    margin: 20px auto;
+    
+}
+
+#resume_container:hover {
+    background-color: rgb(240, 6, 244);
+}
+ 
+.hr0{
+    height: 5px;
+    background-color: black;
+    border: none;
+}
+
+.left_hr {
+  height: 4px;
+  background-color: black;
+  border: none;
+  width: 38%;
+  margin: -20px 0 20px 0;
+}
+
+.right_hr {
+  height: 4px;
+  background-color: black;
+  border: none;
+  margin: -20px 0 20px 0;
+}
+
+#name {
+    padding: 0 20px 0 30px;
+}
+
+#left_right{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
