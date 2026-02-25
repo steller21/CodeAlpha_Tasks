@@ -117,7 +117,7 @@ animation: rightanimation 2s ease-in-out forwards;
 
 #left_right{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     width: 100%;
 }
 
